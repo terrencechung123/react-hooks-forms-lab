@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import ShoppingList from "./ShoppingList";
 import Header from "./Header";
@@ -11,8 +12,8 @@ function App() {
     setIsDarkMode((isDarkMode) => !isDarkMode);
   }
 
-  function handleItemFormSubmit(newItem){
-  setItems([...items, newItem]);
+  function handleItemFormSubmit(newItem) {
+    setItems([...items, newItem]);
   }
 
   return (
